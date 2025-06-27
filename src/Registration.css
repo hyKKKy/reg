@@ -1,0 +1,117 @@
+.pictureReg{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.container{
+    height: 100%;
+}
+
+.container, .form{
+    display: flex;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.userInput{
+    border: 1px solid #646464;
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+} 
+span{
+    width: 400px;
+    color: #646464;
+    margin-top: 10px;
+}
+p{
+    margin-bottom: 5px;
+}
+.save-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.info-icon{
+    position: relative;
+    left: 230px;
+}
+
+.create-span{
+    color: black;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.create-btn, .continue-btn{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 10px;
+    font-size: 14px;    
+}
+
+.continue-btn{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.show-hide{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 380px;
+    top: -17px
+}
+
+.checkbox-label{
+    position: relative;
+    left: -3px;
+    color: #646464;
+}
+
+.img-container {
+  position: relative;
+  display: block;
+  width: 50%;
+}
+
+.p-img {
+  position: absolute;
+  top: 100px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  color: rgb(0, 0, 0); 
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+}
+
+.arrow{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 40px; 
+    left: 40px;
+}
