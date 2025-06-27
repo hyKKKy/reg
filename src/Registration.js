@@ -19,6 +19,7 @@ export function RegistrationForm(){
                     <div className='password-container'>
                         <p>Пароль</p>
                         <input className='userInput' type='text'></input>
+                        <img></img>
                     </div>
                     <span><a href=''>Забули свій пароль?</a></span>
                     <div class="save-container">
